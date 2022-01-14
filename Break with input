@@ -1,0 +1,18 @@
+# while loop
+
+# Break With Input
+
+data_int = int(input('Hitung Sampai = '))
+
+angka = 0
+
+while True:
+    angka += 1
+    print(f'Count = {angka}')
+    if angka == data_int:
+        print('Sudah')    
+        break
+
+    print('again!')
+
+print('finish!')
